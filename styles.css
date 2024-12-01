@@ -1,0 +1,27 @@
+/* Estilo principal de la calculadora */
+.calculator {
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombras suaves */
+    background-color: #e3b9e9; /* Color de fondo morado claro */
+}
+
+/* Campo donde se muestra el cálculo */
+.display {
+    height: 80px;
+    font-size: 36px; /* Tamaño del texto grande */
+    text-align: right; /* Texto alineado a la derecha */
+    margin-bottom: 20px;
+}
+
+/* Botones */
+.button {
+    height: 70px;
+    font-size: 28px; /* Texto grande en los botones */
+}
+
+/* Espaciado entre las filas de botones */
+.row {
+    margin-bottom: 10px;
+}
